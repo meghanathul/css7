@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: indigo;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes demo {
+    0%{
+        background-color: green;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        /* background-color: pink; */
+        top: 0px;
+        left: 0px;
+
+    }
+    75%{
+        /* background-color: gray; */
+        top: 400px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: crimson;
+        top: 0px;
+        left: 0px;
+        
+    }
+}
